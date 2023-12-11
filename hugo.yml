@@ -1,0 +1,30 @@
+baseURL: ''
+languageCode: en-us
+title: Mengfei's Blog
+theme: PaperMod
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON 
+
+params:
+    homeInfoParams:
+        Title: IGD301 labs and homework
+        Content: This is my blog for IGD301 course. I will post my labs and homework here.
+
+    socialIcons: # optional
+        - name: github
+          url: "https://github.com/GAO567"
+
+menu:
+    main:
+        - name: Home
+          weight: 1
+          url: /
+
+
+
+       
