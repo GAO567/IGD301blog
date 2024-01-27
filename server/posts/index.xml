@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Mengfei&#39;s Blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Mengfei&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Dec 2023 13:31:19 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class homework 4: Selecting Objects in a supermarket</title>
+      <link>/posts/lecture4/</link>
+      <pubDate>Sun, 17 Dec 2023 13:31:19 +0100</pubDate>
+      
+      <guid>/posts/lecture4/</guid>
+      <description>Three selection techniques in a supermarket.</description>
+    </item>
+    
+    <item>
+      <title>Selection techniques</title>
+      <link>/posts/lecture3/</link>
+      <pubDate>Sat, 09 Dec 2023 10:35:20 +0100</pubDate>
+      
+      <guid>/posts/lecture3/</guid>
+      <description>Introduce three selection techniques: EyeSQUAD,HandDepthCursor and MultiFingerBubble.</description>
+    </item>
+    
+    <item>
+      <title>Roll-a-ball</title>
+      <link>/posts/lab3/</link>
+      <pubDate>Mon, 27 Nov 2023 10:35:20 +0100</pubDate>
+      
+      <guid>/posts/lab3/</guid>
+      <description>Create a Unity game: Roll a ball</description>
+    </item>
+    
+    <item>
+      <title>Setup Unity</title>
+      <link>/posts/lab/</link>
+      <pubDate>Mon, 20 Nov 2023 11:21:21 +0100</pubDate>
+      
+      <guid>/posts/lab/</guid>
+      <description>Setup Unity and create Unity project</description>
+    </item>
+    
+  </channel>
+</rss>

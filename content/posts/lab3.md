@@ -1,5 +1,5 @@
 +++
-title = 'Roll-a-ball'
+title = 'Lab 3: Roll-a-ball'
 date = 2023-11-27T10:35:20+01:00
 draft = false
 summary = "Create a Unity game: Roll a ball"
@@ -195,8 +195,9 @@ I call it **Roll-a-ball:Endless**. After each win, player gets the ability to ju
 
     }
 ```
-![alt text](multiple.png)
-![alt text](morelevel.gif)
+![alt text](multiple.png#center)
+{{< figure src="morelevel.gif" height=300 align=center  >}}
+
 
 
 

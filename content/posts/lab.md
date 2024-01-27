@@ -1,5 +1,5 @@
 +++
-title = 'Setup Unity'
+title = 'Lab: Setup Unity'
 date = 2023-11-20T11:21:21+01:00
 draft = false
 summary = "Setup Unity and create Unity project"

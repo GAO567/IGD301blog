@@ -13,11 +13,20 @@ outputs:
 params:
     homeInfoParams:
         Title: IGD301 labs and homework
-        Content: This is my blog for IGD301 course. I will post my labs and homework here.
+        Content: > 
+            This is my blog for IGD301 course. I will post my lab and lecture homeworks here.
+            
+            - **[Lab](/tags/lab/)**
+
+            - **[Lecture](/tags/lecture/)**
+           
+
 
     socialIcons: # optional
         - name: github
           url: "https://github.com/GAO567"
+    
+ 
 
 menu:
     main:

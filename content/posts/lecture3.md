@@ -1,13 +1,16 @@
 +++
-title = 'Selection techniques'
+title = 'Lecture 3: Selection techniques'
 date = 2023-12-09T10:35:20+01:00
 summary = "Introduce three selection techniques: EyeSQUAD,HandDepthCursor and MultiFingerBubble."
 draft = false
+tags = ["Lecture"]
+
 +++
 
 ### EyeSQUAD 
 It's a novel selection technique with eye tracking–Eye-controlled Sphere-casting refined by QUAD-menu. EyeSQUAD is divided into two subtasks: sphere-casting and quad-menu refinement. For the sphere-casting subtask, EyeSQUAD allows the user to control the selection sphere with eyes by calculating the convergence point from the user’s eye ray data. Once the sphere-casting selection has been triggered, the set of objects inside it are evenly and randomly distributed on an out-of-context quad-menu. Users then refine the set of selectable objects by gazing in the direction of the quadrant that contains the target and trigger the selection again. 
-![alt text](eyesquad.jpeg)
+{{< figure src="eyesquad.jpeg" align=center  >}}
+
 * **Reach - Infinite**
     It uses the spherer-casting to get a set of objects.
 * **Cardinality - Multiple:**
@@ -21,8 +24,8 @@ Ref:
 ### HandDepthCursor
 HandDepthCursor uses raycasting as the selection mechanism. The use can go deeper and move back to the densely cluttered environment via two non-dominant hand gestures. To go deeper, the user can point her index finger to the front. To
 come close, the user can point her thumb to the back.
-![alt text](handdepthcursor.png)
-![alt text](handdepthcursor.gif)
+{{< figure src="handdepthcursor.png"  align=center  >}}
+{{< figure src="handdepthcursor.gif" height=400 align=center  >}}
 * **Reach - Infinite**
     It uses the raycasting to select an object.
 * **Cardinality - Single:**
@@ -34,9 +37,9 @@ Ref:
 [Shi R, Zhang J, Yue Y, et al. Exploration of Bare-Hand Mid-Air Pointing Selection Techniques for Dense Virtual Reality Environments[C]//Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems. 2023: 1-7.](https://dl.acm.org/doi/pdf/10.1145/3544549.3585615)
 ### MultiFingerBubble
 MultiFingerBubble allows users to control a semi-transparent sphere by mapping the hand position onto the sphere position. The sphere can contain multiple targets - up to four. Each target is linked to a specific finger. Users can then select the desired target by flexing the corresponding finger.
+{{< figure src="multifingerbubble.png"  align=center  >}}
+{{< figure src="multifingerbubble.gif" height=400 align=center  >}}
 
-![alt text](multifingerbubble.png)
-![alt text](multifingerbubble.gif)
 * **Reach - Infinite**
     It casts a sphere to contain the targets.
 * **Cardinality - Single:**
