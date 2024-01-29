@@ -6,11 +6,15 @@ summary = "Implementaion of my selection techniques in a supermarket."
 tags = ["Lab"]
 
 +++
-> TODO:
->
-> Add locomotion
->
-> 
+
+- Locomotion: OVRPlayerController 
+- Raycast(Default) + Cursor & Depth(Advanced)
+- Attach to the closest object (Depth = 0)
+    - Move the cursor (Depth changes)
+        - if object collides with cursor, outline yellow
+		-	(other objects collide with depthCube,  transparent and outline white)
+            - if trigger, select object
+            
 In this lab, I am going to talk about the implmentation of my selection thechnique. The project is build based on a provided project. In this project, it gives the example code of raycasting technique. And I will gradually inform my design process.
 ## Locomotion
 The first step was to add movement functionality to the project since user movement is required during selection tasks.
@@ -114,7 +118,7 @@ So I change my idea and use a cube to get the cursor depth. The objects that col
 ## Result
 For this project, I mainly add two funtion to the original raycasting: **Cursor** and **Depth**. My technique propse enhancements to the original Raycasting technique. It reduces error rate in occluded conditions such as selecting objects in supermarket.
 [![Watch the video](video.png)](https://drive.google.com/file/d/1NNzwa27u3ifCsXvlxcf4x0l0CrGQZACJ/view?usp=sharing)
-[Find on Github](https://github.com/GAO567/igd301final.git)
+[Project on Github](https://github.com/GAO567/igd301final.git) - [APK](https://drive.google.com/file/d/1DIo6wO5dYVFh2SKQZn4Ack1I3m8TZySY/view?usp=sharing)
 
 
 

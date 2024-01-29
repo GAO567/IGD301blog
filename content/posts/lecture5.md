@@ -45,6 +45,8 @@ Total Errors: 7
 
 
 **Task Workload:** The average score was 9 out of 10. Since my technique is similar to raycasting, it's very easy to use.
+
 **Presence**: The average score was 6 out of 10. Not good. One mention that if using hands ranther than controller may be better.
+
 **Enjoyment**: The average score was 7.3 out of 10. Good. They think moving cursor is interesting.
 
