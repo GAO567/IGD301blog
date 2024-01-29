@@ -16,9 +16,9 @@ params:
         Content: > 
             This is my blog for IGD301 course. I will post my lab and lecture homeworks here.
             
-            - **[Lab](/tags/lab/)**
+            - **[Lab](tags/lab/)**
 
-            - **[Lecture](/tags/lecture/)**
+            - **[Lecture](tags/lecture/)**
            
 
 
