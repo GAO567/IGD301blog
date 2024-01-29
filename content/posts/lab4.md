@@ -2,6 +2,8 @@
 title = ' Lab 4: Roll-a-ball in VR'
 date = 2023-12-06T10:35:20+01:00
 draft = false
+summary = "Convert previous lab to VR version."
+
 tags = ["Lab"]
 
 +++
